@@ -1,29 +1,8 @@
-# test-front-qao
+# Etat d'avacement du projet  
+## Ce qui a été fait 
+- Authentification (avec protection des routes)
+- Affichage des oeuvres d'art sous la forme de grid 
+- fonction de recheche 
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
+## Ce qui n'allait pas dans les test : 
+- L'implémentation de la fonction de recherche : je n'arrivai pas à mettre à jour l'url suivant de l'input de recherche.
