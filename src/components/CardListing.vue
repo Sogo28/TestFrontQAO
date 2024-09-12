@@ -30,7 +30,7 @@
         <div class="loader border-t-4 border-b-4 border-blue-500 rounded-full w-12 h-12 animate-spin"></div>
     </div>
     <div v-else class="grid grid-cols-5 gap-6">
-      <Card v-for="art in arts" :key="art.id" :title="art.title" :artist="art.artist_title" :image-link="`https://www.artic.edu/iiif/2/${art.image_id}/full/843,/0/default.jpg`"/>
+      <Card v-for="art in arts" :key="art.id" :title="art.title" :artist="art.artist_title ? art.artist_title : '--' " :image-url="art.image_id ? `https://www.artic.edu/iiif/2/${art.image_id}/full/843,/0/default.jpg` : null"/>
     </div>
   </section>
 </template>
